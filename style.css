@@ -3,7 +3,7 @@
   }
 
   body {
-    background-color: #3F0713;
+    background-color: #E0C097;
   }
 
   hr {
@@ -12,10 +12,6 @@
     width: 40%;
   }
 
-  h1 {
-    color: #ECAC5D;
-  }
-
-  h2 {
-    color: #FFF9B2;
+  a {
+    text-decoration: none;
   }
