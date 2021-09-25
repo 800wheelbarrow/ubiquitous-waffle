@@ -1,0 +1,21 @@
+  .mike {
+    border-radius: 30%;
+  }
+
+  body {
+    background-color: #3F0713;
+  }
+
+  hr {
+    border-style: dashed none none none;
+    border-width: 20px;
+    width: 40%;
+  }
+
+  h1 {
+    color: #ECAC5D;
+  }
+
+  h2 {
+    color: #FFF9B2;
+  }
