@@ -1,6 +1,9 @@
   .mike {
     border-radius: 30%;
   }
+  .mike:hover {
+    border-radius: 100%;
+  }
 
   body {
     background-color: #E0C097;
@@ -14,4 +17,7 @@
 
   a {
     text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
   }
