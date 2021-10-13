@@ -79,7 +79,7 @@ padding: 25px;
   bottom: 300px;
 }
 hr {
-  border-style: dotted;
+  border-style: dashed;
   border-width: 25px;
   width: 20%;
   margin: 50px auto;
