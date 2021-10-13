@@ -6,9 +6,20 @@ body {
 
 }
 .body-image {
-  float: left;
+  /* display: block; */
   width: 25%;
 }
+.skill-image {
+  float: left;
+  width: 30%;
+  padding-right: 15px;
+}
+
+.car-image {
+  float: right;
+  padding-left: 15px;
+}
+
 h1 {
   color: #66BFBF;
   font-family: 'ZCOOL KuaiLe', cursive;
@@ -21,6 +32,7 @@ h2 {
   font-family: 'ZCOOL KuaiLe', cursive;
   font-weight: normal;
   font-size: 2.5em;
+  margin-top: 0;
 }
 h3, a {
   color: #11999E;
@@ -34,7 +46,7 @@ h3, a {
 .skill-row {
   width: 50%;
   margin: 100px auto;
-  text-align: right;
+  /* text-align: right; */
   line-height: 2;
 }
 .top-container {
@@ -46,12 +58,14 @@ h3, a {
 }
 
 .middle-container {
-
+text-align: center;
 
 }
 
 .bottom-container {
-
+text-align: center;
+background-color: #66BFBF;
+padding: 25px;
 
 }
 .top-cloud {
@@ -63,4 +77,25 @@ h3, a {
   position: absolute;
   left: 300px;
   bottom: 300px;
+}
+hr {
+  border-style: dotted;
+  border-width: 25px;
+  width: 20%;
+  margin: 100px auto;
+  border-color: #EAF6F6;
+}
+.footer-link {
+  text-decoration: none;
+  font-family: sans-serif;
+  padding: 0 25px;
+}
+.btn {
+  font-size:15px;
+  font-family:Arial;
+  background:linear-gradient(#7d5d3b, #634b30);
+  padding: 20px;
+  display: block;
+  width: 10%;
+  margin: 20px auto;
 }
