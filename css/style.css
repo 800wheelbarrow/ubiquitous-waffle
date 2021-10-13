@@ -45,7 +45,7 @@ h3, a {
 }
 .skill-row {
   width: 50%;
-  margin: 100px auto;
+  margin: 50px auto;
   /* text-align: right; */
   line-height: 2;
 }
@@ -82,13 +82,16 @@ hr {
   border-style: dotted;
   border-width: 25px;
   width: 20%;
-  margin: 100px auto;
+  margin: 50px auto;
   border-color: #EAF6F6;
 }
 .footer-link {
   text-decoration: none;
   font-family: sans-serif;
   padding: 0 25px;
+}
+.footer-link:hover{
+  color: #EAF6F6;
 }
 .btn {
   font-size:15px;
@@ -98,4 +101,7 @@ hr {
   display: block;
   width: 10%;
   margin: 20px auto;
+}
+.btn:hover {
+  color: #EAF6F6;
 }
